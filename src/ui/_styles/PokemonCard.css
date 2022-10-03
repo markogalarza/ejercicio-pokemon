@@ -1,0 +1,122 @@
+:root {
+    --size-xs: 0.75rem;
+    --size-s: 1rem;
+    --size-m: 1.5rem;
+    --size-l: 2rem;
+    --size-xl: 4rem;
+    --size-xxl: 5.375rem;
+  }
+
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@700&display=swap');
+
+.card__container--grass{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+    width: 18.75rem;
+    height: 25rem;
+    background-color: #74CB48;
+    border-radius: 0.75rem;
+    box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
+
+
+}
+
+.card__header{
+    padding-top: var(--size-m);
+    padding-left: var(--size-m);
+    padding-right: var(--size-s);
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    
+}
+
+.card__title{
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--size-m);
+    line-height: var(--size-l);
+    
+}
+
+.card__number {
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--size-xs);;
+    line-height: var(--size-l);
+}
+
+.card__imageContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    z-index: 1000;
+
+}
+
+.card__description{
+    background-color: white;
+    width: 18.125rem;
+    height: 15rem;
+    min-height: 15rem;
+    margin-left: 0.3125rem;
+    position: relative;
+    top: -3.2rem;
+    padding-top: 3.5rem;
+    border-radius: 0.5rem;
+    
+}
+
+.card__image{
+    width: 9.375rem;
+    height:  9.375rem;
+}
+
+.card__tagContainer{
+    display: flex;
+    justify-content: space-around;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+
+.card__tag{
+    color: white;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: var(--size-xs);
+    height: 1.25rem;
+    line-height: 1.25rem;
+    border-radius: 0.625rem;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.card__color--grass{
+    background-color: #74CB48;
+}
+
+.card__textColor--grass{
+    color:#74CB48;
+}
+.card__color--poison{
+    background-color: #A43E9E;
+}
+
+.card__descriptiontitle{
+    display: flex;
+    justify-content: center;
+    padding: 1rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 0.875rem;
+    line-height: 1rem;
+}
