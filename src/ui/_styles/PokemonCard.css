@@ -8,6 +8,7 @@
   }
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@700&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@400&display=swap');
 
 .card__container--grass{
     display: flex;
@@ -16,11 +17,9 @@
 
     width: 18.75rem;
     height: 25rem;
-    background-color: #74CB48;
+
     border-radius: 0.75rem;
     box-shadow: 0.125rem 0.125rem 0.25rem rgba(0, 0, 0, 0.25);
-
-
 }
 
 .card__header{
@@ -102,10 +101,22 @@
 .card__color--grass{
     background-color: #74CB48;
 }
-
 .card__textColor--grass{
     color:#74CB48;
 }
+.card__color--fire{
+    background-color: #F57D31;
+}
+.card__textColor--fire{
+    color:#F57D31;
+}
+.card__color--water{
+    background-color: #6493EB;
+}
+.card__textColor--water{
+    color:#6493EB;
+}
+
 .card__color--poison{
     background-color: #A43E9E;
 }
@@ -119,4 +130,65 @@
     font-weight: 700;
     font-size: 0.875rem;
     line-height: 1rem;
+}
+.card__parameters{
+    display:flex;
+    justify-content: center;
+}
+
+.card__parameters--info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    width: 4rem;
+    height: 3rem;
+}
+
+.card__parameters--infocontent{
+    display: flex;
+    justify-content: center;
+}
+
+.card__parameters--features{
+    font-family: 'Poppins';
+    font-style: 'normal';
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 1rem;
+    padding-left: 0.5rem;
+}
+
+.card__parameters--label{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.5rem;
+    line-height: 0.75rem;;
+}
+
+.card__parameters--text{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.625rem;
+    line-height: 1rem;
+    padding-top: 1rem;
+    padding-right: 1.25rem;
+    padding-left: 1.25rem;
+}
+
+.card__frame {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;  
+    width: 60.75rem; 
+    height: 51.25rem;
+}
+
+.card__frameglobal {
+    display: flex;
+    justify-content:center;
+      
 }
