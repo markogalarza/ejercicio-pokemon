@@ -156,7 +156,7 @@
     font-weight: 400;
     font-size: 0.625rem;
     line-height: 1rem;
-    padding-left: 0.5rem;
+    padding-left: 0.75rem;
 }
 
 .card__parameters--label{
@@ -164,7 +164,9 @@
     font-style: normal;
     font-weight: 400;
     font-size: 0.5rem;
-    line-height: 0.75rem;;
+    line-height: 0.75rem;
+    color:#666666;
+    
 }
 
 .card__parameters--text{
@@ -192,3 +194,11 @@
     justify-content:center;
       
 }
+
+.divider {
+    width: 0.063rem;
+    background-color: #E0E0E0;
+    margin-left: 1.5rem;
+    margin-right: 1.5rem;
+    height: 3rem;
+  }

@@ -72,9 +72,11 @@ export const PokemonCard = ({ name }) => {
               <div className="card__parameters--features">
                 {weightPokemon} kg
               </div>
+              
             </div>
             <div className="card__parameters--label">Weight</div>
           </div>
+          <div class="divider"> </div>
           <div className="card__parameters--info">
             <div className="card__parameters--infocontent">
               <img src={height} alt=""></img>
