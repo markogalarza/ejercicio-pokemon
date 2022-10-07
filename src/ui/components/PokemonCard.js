@@ -46,7 +46,7 @@ export const PokemonCard = ({ name }) => {
   };
 
   return (
-    <article className={`card__container--grass card__color--${types[0]}`}>
+    <article className={`card__container card__color--${types[0]}`}>
       <header className="card__header">
         <h2 className="card__title">{firstLetterToUpperCase(namePokemon)}</h2>
         <div className="card__number">{idFormat(idPokemon)}</div>
