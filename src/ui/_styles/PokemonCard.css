@@ -212,20 +212,7 @@
     padding-left: 1.25rem;
 }
 
-.card__frame {
-    display:flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    align-content: space-around;  
-    width: 60.75rem; 
-    height: 51.25rem;
-}
 
-.card__frameglobal {
-    display: flex;
-    justify-content:center;
-      
-}
 
 .divider {
     width: 0.063rem;

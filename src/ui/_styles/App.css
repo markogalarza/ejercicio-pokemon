@@ -1,0 +1,96 @@
+.frameheader {
+    display: flex;
+    height: 4rem;
+    gap: 1rem;;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 2rem;
+    border: 1px solid #E0E0E0;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.10);
+    padding-left: 5rem;
+    align-items: center;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.card__frame {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;  
+    width: 60.75rem; 
+    height: 51.25rem;
+}
+
+.card__frameglobal {
+    display: flex;
+    justify-content:center;
+      
+}
+
+.feature_pokeball{
+    display: flex;
+    align-items: baseline;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.feature_pokeball img{
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.framenav{
+    display: flex;
+    justify-content: center;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+     
+    
+}
+.framesearch {
+    display: flex;
+    width: 31.375rem;
+    height: 2.188rem;
+    background: #FFFFFF;
+    border: 1px solid #E0E0E0;
+    border-radius: 8px;
+    
+}
+
+
+.feature_search{
+    display: flex;
+    align-items: flex-end;
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+.feature_search img{
+    padding-left: 0.563rem;
+    
+}
+
+.frameinput {
+    width: 29rem;
+    height: 2rem;
+    border: 0 none;
+    outline: none;
+}
+
+.framefooter{
+    display: flex;
+    justify-content: center;
+    border-top: 1px solid #E0E0E0;
+    margin-top: 2rem;
+}
+
+.framefooter__features{
+    display: flex;
+    flex-direction: row;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
