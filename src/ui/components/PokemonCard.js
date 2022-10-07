@@ -59,11 +59,11 @@ export const PokemonCard = ({ name }) => {
       <section className="card__description">
         <div className="card__tagContainer">
           {types.map((elem) => {
-            return <span key={elem} className="card__tag card__color--grass">{firstLetterToUpperCase(elem)}</span>;
+            return <span key={elem} className={`card__tag card__color--${elem}`}>{firstLetterToUpperCase(elem)}</span>;
           })}
         </div>
 
-        <h3 className="card__textColor--grass card__descriptiontitle">About</h3>
+        <h3 className={`card__textColor--${types[0]} card__descriptiontitle`}>About</h3>
 
         <div className="card__parameters">
           <div className="card__parameters--info">

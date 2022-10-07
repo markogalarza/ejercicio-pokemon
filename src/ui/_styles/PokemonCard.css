@@ -5,6 +5,24 @@
     --size-l: 2rem;
     --size-xl: 4rem;
     --size-xxl: 5.375rem;
+    --rock: #B69E31; 
+    --ghost: #70559B; 
+    --steel: #B7B9D0; 
+    --water: #6493EB; 
+    --grass: #74CB48; 
+    --psychic: #FB5584; 
+    --ice: #9AD6DF; 
+    --dark: #75574C; 
+    --fairy: #E69EAC; 
+    --normal: #AAA67F; 
+    --fighting: #C12239;
+    --flying: #A891EC;
+    --poison: #A43E9E;
+    --ground: #DEC16B;
+    --bug: #A7B723;
+    --fire: #F57D31;
+    --electric: #F9CF30;
+    --dragon: #FB5584;;
   }
 
   @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@800&family=Poppins:wght@700&display=swap');
@@ -99,26 +117,40 @@
 }
 
 .card__color--grass{
-    background-color: #74CB48;
+    background-color: var(--grass);
 }
 .card__textColor--grass{
-    color:#74CB48;
+    color:var(--grass);
 }
 .card__color--fire{
-    background-color: #F57D31;
+    background-color:var(--fire);
 }
 .card__textColor--fire{
-    color:#F57D31;
+    color:var(--fire);
 }
 .card__color--water{
-    background-color: #6493EB;
+    background-color: var(--water);
 }
 .card__textColor--water{
-    color:#6493EB;
+    color:var(--water);
 }
-
 .card__color--poison{
-    background-color: #A43E9E;
+    background-color: var(--poison);
+}
+.card__textColor--poison{
+    color:var(--poison);
+}
+.card__color--flying{
+    background-color:var(--flying);
+}
+.card__textColor--flying{
+    color:var(--flying);
+}
+.card__color--bug{
+    background-color: var(--bug);
+}
+.card__textColor--bug{
+    color:var(--bug);
 }
 
 .card__descriptiontitle{
